@@ -1,0 +1,33 @@
+.features {
+    padding: 60px 10%;
+background-color: #f8f9fc;
+text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+     background: white;
+     padding: 20px;
+     margin: 20px 0;
+     border-radius: 12px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     flex: 1;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #666;
+} 
+
+.feature-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

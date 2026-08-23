@@ -1,0 +1,63 @@
+.register-container {
+    width: 350px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-container label {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: -8px;
+}
+
+.register-container h1 {
+    margin: 0 0 25px;
+    line-height: 1.2;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.register-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-container input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.register-container button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.register-container button:hover {
+    transform: translateY(-1px);
+}
+
+.forgot-password,
+.register-link {
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.register-link {
+    margin-top: 10px;
+}
